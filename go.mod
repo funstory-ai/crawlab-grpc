@@ -1,4 +1,4 @@
-module github.com/crawlab-team/crawlab-grpc
+module github.com/funstory-ai/crawlab-grpc
 
 go 1.16
 
