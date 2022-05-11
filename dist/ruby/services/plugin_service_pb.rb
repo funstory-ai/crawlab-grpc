@@ -6,6 +6,7 @@ require 'google/protobuf'
 require 'entity/plugin_request_pb'
 require 'entity/response_pb'
 require 'entity/stream_message_pb'
+
 Google::Protobuf::DescriptorPool.generated_pool.build do
   add_file("services/plugin_service.proto", :syntax => :proto3) do
   end

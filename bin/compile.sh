@@ -33,6 +33,6 @@ cd $base_path && \
 
 # python
 cd $base_path && \
-  python -m grpc_tools.protoc -I ./proto \
+  python3 -m grpc_tools.protoc -I ./proto \
   --grpc_python_out=dist/python \
   ./proto/**/*.proto

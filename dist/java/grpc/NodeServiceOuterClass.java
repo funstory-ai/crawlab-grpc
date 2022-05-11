@@ -25,14 +25,15 @@ public final class NodeServiceOuterClass {
     java.lang.String[] descriptorData = {
       "\n\033services/node_service.proto\022\004grpc\032\024ent" +
       "ity/request.proto\032\025entity/response.proto" +
-      "\032\033entity/stream_message.proto2\372\001\n\013NodeSe" +
+      "\032\033entity/stream_message.proto2\251\002\n\013NodeSe" +
       "rvice\022+\n\010Register\022\r.grpc.Request\032\016.grpc." +
-      "Response\"\000\0220\n\rSendHeartbeat\022\r.grpc.Reque" +
-      "st\032\016.grpc.Response\"\000\022\'\n\004Ping\022\r.grpc.Requ" +
-      "est\032\016.grpc.Response\"\000\0223\n\tSubscribe\022\r.grp" +
-      "c.Request\032\023.grpc.StreamMessage\"\0000\001\022.\n\013Un" +
-      "subscribe\022\r.grpc.Request\032\016.grpc.Response" +
-      "\"\000B\010Z\006.;grpcb\006proto3"
+      "Response\"\000\022-\n\nUnregister\022\r.grpc.Request\032" +
+      "\016.grpc.Response\"\000\0220\n\rSendHeartbeat\022\r.grp" +
+      "c.Request\032\016.grpc.Response\"\000\022\'\n\004Ping\022\r.gr" +
+      "pc.Request\032\016.grpc.Response\"\000\0223\n\tSubscrib" +
+      "e\022\r.grpc.Request\032\023.grpc.StreamMessage\"\0000" +
+      "\001\022.\n\013Unsubscribe\022\r.grpc.Request\032\016.grpc.R" +
+      "esponse\"\000B\010Z\006.;grpcb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,

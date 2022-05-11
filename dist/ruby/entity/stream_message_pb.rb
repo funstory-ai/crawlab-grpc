@@ -4,6 +4,7 @@
 require 'google/protobuf'
 
 require 'entity/stream_message_code_pb'
+
 Google::Protobuf::DescriptorPool.generated_pool.build do
   add_file("entity/stream_message.proto", :syntax => :proto3) do
     add_message "grpc.StreamMessage" do

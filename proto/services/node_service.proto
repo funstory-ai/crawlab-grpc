@@ -9,6 +9,7 @@ option go_package = ".;grpc";
 
 service NodeService {
   rpc Register(Request) returns (Response){};
+  rpc Unregister(Request) returns (Response){};
   rpc SendHeartbeat(Request) returns (Response){};
   rpc Ping(Request) returns (Response){};
   rpc Subscribe(Request) returns (stream StreamMessage){};
